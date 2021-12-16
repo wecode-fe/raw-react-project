@@ -8,7 +8,7 @@ const Product = (props) => {
     React.createElement(
       "button",
       {
-        onClick: () => alert("You clicked buy now on product" + props.title),
+        onClick: () => alert("You clicked buy now on product " + props.title),
       },
       "BUY NOW"
     )
